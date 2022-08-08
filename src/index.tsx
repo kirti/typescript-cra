@@ -6,10 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App firstName ={'kirti '} />
-   <div> Below is Optional Example  </div>
-    <App firstName ={'kirti '} lastName={'kaushal'} />
-
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

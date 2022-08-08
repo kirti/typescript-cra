@@ -1,18 +1,16 @@
 import React from 'react';
+import AddUser from './AddUser'
 import './App.css';
 
-interface AppProps {
-  firstName: string;
-  lastName?: string;
-  
-}
 
-function App({firstName, lastName}:AppProps) {
+function App() {
   return (
     <div className="App">
-      <header className="App-header">
-          My name is {firstName} {lastName}
-      </header>
+
+
+
+      
+      <AddUser/>
     </div>
   );
 }
